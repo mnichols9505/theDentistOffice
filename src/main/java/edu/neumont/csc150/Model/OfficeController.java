@@ -8,4 +8,8 @@ public class OfficeController {
 
     }
 
+    public static void main(String[] args) {
+
+    }
+
 }
