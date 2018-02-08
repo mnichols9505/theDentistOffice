@@ -1,6 +1,6 @@
-package edu.neumont.csc150.Model;
+package edu.neumont.csc150.Model.edu.neumont.csc150.Model.Provider;
 
-public class ProviderImpl implements Provider{
+public class ProviderImpl implements Provider {
 
     private String lastName;
     private String firstName;

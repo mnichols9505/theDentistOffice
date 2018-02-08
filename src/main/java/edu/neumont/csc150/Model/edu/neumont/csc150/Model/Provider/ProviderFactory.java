@@ -1,4 +1,4 @@
-package edu.neumont.csc150.Model;
+package edu.neumont.csc150.Model.edu.neumont.csc150.Model.Provider;
 
 public class ProviderFactory {
 
