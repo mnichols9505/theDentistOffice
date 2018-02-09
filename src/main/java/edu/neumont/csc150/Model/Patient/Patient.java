@@ -38,4 +38,7 @@ public interface Patient {
 
     public void setProviderName(String providerName);
 
+    public long getPaymentCard();
+
+    public void setPaymentCard(long paymentCard);
 }

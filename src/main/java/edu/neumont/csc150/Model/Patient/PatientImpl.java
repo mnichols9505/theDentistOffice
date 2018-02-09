@@ -12,6 +12,16 @@ public class PatientImpl {
     private double procedureCost;
     private String providerName;
 
+    public long getPaymentCard() {
+        return paymentCard;
+    }
+
+    public void setPaymentCard(long paymentCard) {
+        this.paymentCard = paymentCard;
+    }
+
+    private long paymentCard;
+
     public String getFirstName() {
         return firstName;
     }
