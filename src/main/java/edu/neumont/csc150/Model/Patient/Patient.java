@@ -22,7 +22,6 @@ public interface Patient {
     public String getInsuranceGroupId();
 
     public void setInsuranceGroupId(String insuranceGroupId);
-    //fadg
 
     public String getProcedure();
 
