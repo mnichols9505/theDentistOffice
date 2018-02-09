@@ -17,6 +17,9 @@ public class PatientImpl {
     }
 
     public void setFirstName(String firstName) {
+        if (firstName == "null") {
+            throw new IllegalArgumentException("First Name cannot equal null");
+        }
         this.firstName = firstName;
     }
 
@@ -25,6 +28,9 @@ public class PatientImpl {
     }
 
     public void setLastName(String lastName) {
+        if (lastName == "null") {
+            throw new IllegalArgumentException("Last Name cannot equal null");
+        }
         this.lastName = lastName;
     }
 
@@ -57,6 +63,9 @@ public class PatientImpl {
     }
 
     public void setProcedure(String procedure) {
+        if (procedure == "null") {
+            throw new IllegalArgumentException("Have to have procedure naem");
+        }
         this.procedure = procedure;
     }
 
@@ -81,6 +90,9 @@ public class PatientImpl {
     }
 
     public void setProviderName(String providerName) {
+        if (providerName == "null") {
+            throw new IllegalArgumentException("There has to be a provider");
+        }
         this.providerName = providerName;
     }
 }
