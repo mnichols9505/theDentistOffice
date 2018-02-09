@@ -10,9 +10,9 @@ public interface Patient {
 
     public void setLastName(String lastName);
 
-    public int getId();
+    public long getId();
 
-    public void setId(int id);
+    public void setId(long id);
 
     public String getInsuranceProvider();
 
