@@ -2,6 +2,11 @@ package edu.neumont.csc150.Model.Patient;
 
 public interface Patient {
 
+
+
+
+
+
     public String getFirstName();
 
     public void setFirstName(String firstName);
