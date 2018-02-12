@@ -1,5 +1,9 @@
 package edu.neumont.csc150.Model.Patient;
 
+/**
+ * Patient interface
+ * @author Matthew Nichols & Hailey Roberts
+ */
 public interface Patient {
 
     public String getFirstName();

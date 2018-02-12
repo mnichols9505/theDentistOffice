@@ -1,5 +1,10 @@
 package edu.neumont.csc150.Model.User;
 
+
+/**
+ * User Interface
+ * @author Matthew Nichols & Hailey Roberts
+ */
 public interface User {
 
     public long getPassword();

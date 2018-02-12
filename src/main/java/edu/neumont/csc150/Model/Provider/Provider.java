@@ -1,5 +1,9 @@
 package edu.neumont.csc150.Model.Provider;
 
+/**
+ * Provider interface
+ * @author Matthew Nichols & Hailey Roberts
+ */
 public interface Provider {
 
     public String getLastName();
