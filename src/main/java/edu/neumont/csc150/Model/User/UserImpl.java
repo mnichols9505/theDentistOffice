@@ -5,6 +5,15 @@ public class UserImpl implements User{
     private long password;
     private String userName;
 
+    public UserImpl (){}
+
+    public UserImpl (long pw, String un){
+
+        this.setPassword(pw);
+        this.setUserName(un);
+
+    }
+
     public long getPassword() {
         return password;
     }

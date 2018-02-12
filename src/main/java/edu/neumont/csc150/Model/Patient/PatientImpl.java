@@ -1,6 +1,6 @@
 package edu.neumont.csc150.Model.Patient;
 
-public class PatientImpl {
+public class PatientImpl implements Patient{
 
     private String firstName;
     private String lastName;
@@ -11,6 +11,22 @@ public class PatientImpl {
     private double account;
     private double procedureCost;
     private String providerName;
+
+    public PatientImpl () {}
+
+    public PatientImpl (String fn, String ln, long id, String ip, String igi, String p, double a, double pc, String pn) {
+
+        this.setFirstName(fn);
+        this.setLastName(ln);
+        this.setId(id);
+        this.setInsuranceProvider(ip);
+        this.setInsuranceGroupId(igi);
+        this.setProcedure(p);
+        this.setAccount(a);
+        this.setProcedureCost(pc);
+        this.setProviderName(pn);
+
+    }
 
     public long getPaymentCard() {
         return paymentCard;

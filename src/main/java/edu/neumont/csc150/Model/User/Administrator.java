@@ -1,4 +1,4 @@
 package edu.neumont.csc150.Model.User;
 
-public class Administrator {
+public class Administrator extends UserImpl{
 }
